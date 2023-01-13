@@ -1,0 +1,43 @@
+{
+    "name": "flashport/laravel-json-marshaller",
+    "description": "A laravel wrapper for the lib flashport/json-marshaller",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Flashport GmbH",
+            "email": "info@flashport.co"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "LaravelJsonMarshaller\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=8.0",
+        "flashport/json-marshaller": "^0.0.5",
+        "laravel/laravel": "^9.5"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^7.19"
+    },
+    "scripts": {
+        "post-autoload-dump": [
+            "@php vendor/bin/testbench package:discover --ansi"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LaravelJsonMarshaller\\Providers\\JsonMarshallerProvider"
+            ],
+            "aliases": []
+        }
+    }
+}
