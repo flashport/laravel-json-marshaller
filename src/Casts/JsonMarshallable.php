@@ -7,6 +7,18 @@ use LaravelJsonMarshaller\Facades\JsonMarshaller;
 
 class JsonMarshallable implements CastsAttributes, SerializesCastableAttributes {
 
+
+    protected string $targetClass;
+
+    /**
+     * @param string $targetClass
+     */
+    public function __construct(string $targetClass)
+    {
+        $this->targetClass = $targetClass;
+    }
+
+
     /**
      * Cast the given value.
      *
@@ -18,7 +30,7 @@ class JsonMarshallable implements CastsAttributes, SerializesCastableAttributes 
      */
     public function get($model, string $key, $value, array $attributes): mixed
     {
-        return JsonMarshaller::unmarshal($value ?? "", \stdClass::class);
+        return JsonMarshaller::unmarshal($value ?? "", $this->targetClass);
     }
 
     /**

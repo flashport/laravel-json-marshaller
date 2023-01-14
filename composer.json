@@ -6,7 +6,8 @@
     "authors": [
         {
             "name": "Flashport GmbH",
-            "email": "info@flashport.co"
+            "email": "info@flashport.co",
+            "role": "Creator"
         }
     ],
     "autoload": {
@@ -21,13 +22,14 @@
     },
     "require": {
         "php": ">=8.0",
-        "flashport/json-marshaller": "^0.0.5",
+        "flashport/json-marshaller": "^0.0.7",
         "laravel/laravel": "^9.5"
     },
     "require-dev": {
         "orchestra/testbench": "^7.19"
     },
     "scripts": {
+        "test": "./vendor/bin/phpunit ./tests/",
         "post-autoload-dump": [
             "@php vendor/bin/testbench package:discover --ansi"
         ]

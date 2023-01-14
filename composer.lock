@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fa0d269d9d00b7ced605158bc1090061",
+    "content-hash": "018ceb38f5da6cba10ebee028c26bab5",
     "packages": [
         {
             "name": "brick/math",
@@ -479,16 +479,16 @@
         },
         {
             "name": "flashport/json-marshaller",
-            "version": "v0.0.5",
+            "version": "v0.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flashport/json-marshaller.git",
-                "reference": "bf49d8288ae1382ee3cf483b027d11ccbcc759bb"
+                "reference": "c1d0fdb3d738a27fb445eb3d48f22d91d26e7748"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flashport/json-marshaller/zipball/bf49d8288ae1382ee3cf483b027d11ccbcc759bb",
-                "reference": "bf49d8288ae1382ee3cf483b027d11ccbcc759bb",
+                "url": "https://api.github.com/repos/flashport/json-marshaller/zipball/c1d0fdb3d738a27fb445eb3d48f22d91d26e7748",
+                "reference": "c1d0fdb3d738a27fb445eb3d48f22d91d26e7748",
                 "shasum": ""
             },
             "require": {
@@ -515,11 +515,17 @@
                 }
             ],
             "description": "A simple JSON Marshaller/Unmarshaller library.",
+            "keywords": [
+                "json",
+                "marshaller",
+                "package",
+                "php"
+            ],
             "support": {
                 "issues": "https://github.com/flashport/json-marshaller/issues",
-                "source": "https://github.com/flashport/json-marshaller/tree/v0.0.5"
+                "source": "https://github.com/flashport/json-marshaller/tree/v0.0.7"
             },
-            "time": "2023-01-12T20:25:53+00:00"
+            "time": "2023-01-14T00:23:52+00:00"
         },
         {
             "name": "fruitcake/php-cors",
@@ -8223,7 +8229,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "^8.0"
+        "php": ">=8.0"
     },
     "platform-dev": [],
     "plugin-api-version": "2.3.0"
