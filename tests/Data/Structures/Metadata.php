@@ -2,7 +2,9 @@
 
 namespace Tests\Data\Structures;
 
-class Metadata
+use LaravelJsonMarshaller\Castables\AsJsonMarshallable;
+
+class Metadata extends AsJsonMarshallable
 {
     public bool $admin;
 

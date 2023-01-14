@@ -8,6 +8,7 @@ use Orchestra\Testbench\TestCase;
 use Tests\Data\Structures\CustomField;
 use Tests\Data\Structures\Metadata;
 use Tests\Data\User;
+use Tests\Data\UserWithCastables;
 use Tests\Migrations\MigrationsProvider;
 
 abstract class DatabaseTestCase extends TestCase{
@@ -44,6 +45,18 @@ abstract class DatabaseTestCase extends TestCase{
     {
         /** @var User $user */
         $user = User::query()->first();
+
+        $this->assertNotEmpty($user);
+        return $user;
+    }
+
+    /**
+     * @return UserWithCastables
+     */
+    protected function getUserWithCastables() : UserWithCastables
+    {
+        /** @var UserWithCastables $user */
+        $user = UserWithCastables::query()->first();
 
         $this->assertNotEmpty($user);
         return $user;

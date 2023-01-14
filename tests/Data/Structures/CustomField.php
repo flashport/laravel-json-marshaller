@@ -2,7 +2,9 @@
 
 namespace Tests\Data\Structures;
 
-class CustomField
+use LaravelJsonMarshaller\Castables\AsJsonMarshallable;
+
+class CustomField extends AsJsonMarshallable
 {
     public string $name;
     public string $value;
