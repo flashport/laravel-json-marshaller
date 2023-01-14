@@ -1,6 +1,7 @@
 {
     "name": "flashport/laravel-json-marshaller",
     "description": "A laravel wrapper for the lib flashport/json-marshaller",
+    "keywords": ["laravel", "php", "package", "json", "marshaller"],
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -33,6 +34,12 @@
         "post-autoload-dump": [
             "@php vendor/bin/testbench package:discover --ansi"
         ]
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true,
+        "preferred-install": "dist"
     },
     "extra": {
         "laravel": {
