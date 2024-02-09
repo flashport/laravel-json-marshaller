@@ -24,7 +24,7 @@
     "require": {
         "php": ">=8.0",
         "flashport/json-marshaller": "^0.0.7",
-        "laravel/laravel": "^10.0.0"
+        "laravel/framework": "^10.0.0"
     },
     "require-dev": {
         "orchestra/testbench": "^8.0"
