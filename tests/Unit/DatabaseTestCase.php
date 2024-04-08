@@ -11,7 +11,7 @@ use Tests\Data\User;
 use Tests\Data\UserWithCastables;
 use Tests\Migrations\MigrationsProvider;
 
-abstract class DatabaseTestCase extends TestCase{
+abstract class DatabaseTestCase extends BaseTestCase{
 
     use RefreshDatabase;
 

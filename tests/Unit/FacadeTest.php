@@ -6,10 +6,9 @@ use Tests\Data\Tag;
 class FacadeTest extends BaseTestCase{
 
     /**
-     * @test
      * @return void
      */
-    public function it_uses_the_facade_properly() : void
+    public function testItUsesTheFacadeProperly() : void
     {
         $tag = new Tag("testTag", "0.0.1");
 

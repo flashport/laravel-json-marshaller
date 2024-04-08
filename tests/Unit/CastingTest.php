@@ -7,10 +7,9 @@ class CastingTest extends DatabaseTestCase
 {
 
     /**
-     * @test
      * @return void
      */
-    public function it_casts_single_object_with_normal_cast() : void
+    public function testItCastsSingleObjectWithNormalCast() : void
     {
         $user = $this->getUser();
 
@@ -19,10 +18,9 @@ class CastingTest extends DatabaseTestCase
     }
 
     /**
-     * @test
      * @return void
      */
-    public function it_casts_array_of_objects_with_normal_cast() : void
+    public function testItCastsArrayOfObjectsWithNormalCast() : void
     {
         $user = $this->getUser();
 
@@ -36,10 +34,9 @@ class CastingTest extends DatabaseTestCase
     }
 
     /**
-     * @test
      * @return void
      */
-    public function it_casts_single_object_with_castable() : void
+    public function testItCastsSingleObjectWithCastable() : void
     {
         $user = $this->getUserWithCastables();
 
@@ -48,10 +45,9 @@ class CastingTest extends DatabaseTestCase
     }
 
     /**
-     * @test
      * @return void
      */
-    public function it_casts_array_of_objects_with_castable() : void
+    public function testItCastsArrayOfObjectsWithCastable() : void
     {
         $user = $this->getUserWithCastables();
 
