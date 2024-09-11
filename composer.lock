@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5b57f6983cd662f617fe70d28e1aa316",
+    "content-hash": "d251793d95664e7666f22e291dfe138c",
     "packages": [
         {
             "name": "brick/math",
@@ -508,16 +508,16 @@
         },
         {
             "name": "flashport/json-marshaller",
-            "version": "v0.0.10",
+            "version": "v0.0.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flashport/json-marshaller.git",
-                "reference": "efbde12c5426ff1fb582a2d18a2a030b3d7b5453"
+                "reference": "751ccd1c591a8117510154783aac6020de100228"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flashport/json-marshaller/zipball/efbde12c5426ff1fb582a2d18a2a030b3d7b5453",
-                "reference": "efbde12c5426ff1fb582a2d18a2a030b3d7b5453",
+                "url": "https://api.github.com/repos/flashport/json-marshaller/zipball/751ccd1c591a8117510154783aac6020de100228",
+                "reference": "751ccd1c591a8117510154783aac6020de100228",
                 "shasum": ""
             },
             "require": {
@@ -552,9 +552,9 @@
             ],
             "support": {
                 "issues": "https://github.com/flashport/json-marshaller/issues",
-                "source": "https://github.com/flashport/json-marshaller/tree/v0.0.10"
+                "source": "https://github.com/flashport/json-marshaller/tree/v0.0.11"
             },
-            "time": "2024-09-11T14:47:21+00:00"
+            "time": "2024-09-11T14:59:27+00:00"
         },
         {
             "name": "fruitcake/php-cors",
