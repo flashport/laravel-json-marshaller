@@ -23,7 +23,7 @@
     },
     "require": {
         "php": ">=8.2",
-        "flashport/json-marshaller": "^0.0.9",
+        "flashport/json-marshaller": "^0.0.10",
         "laravel/framework": "^11.0"
     },
     "require-dev": {

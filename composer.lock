@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "607e6316ac127708cbe410f2d78bfbda",
+    "content-hash": "5b57f6983cd662f617fe70d28e1aa316",
     "packages": [
         {
             "name": "brick/math",
@@ -508,16 +508,16 @@
         },
         {
             "name": "flashport/json-marshaller",
-            "version": "v0.0.9",
+            "version": "v0.0.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flashport/json-marshaller.git",
-                "reference": "fe4f9311fc405f7db1b75f8326c23d1961fa236d"
+                "reference": "efbde12c5426ff1fb582a2d18a2a030b3d7b5453"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flashport/json-marshaller/zipball/fe4f9311fc405f7db1b75f8326c23d1961fa236d",
-                "reference": "fe4f9311fc405f7db1b75f8326c23d1961fa236d",
+                "url": "https://api.github.com/repos/flashport/json-marshaller/zipball/efbde12c5426ff1fb582a2d18a2a030b3d7b5453",
+                "reference": "efbde12c5426ff1fb582a2d18a2a030b3d7b5453",
                 "shasum": ""
             },
             "require": {
@@ -552,9 +552,9 @@
             ],
             "support": {
                 "issues": "https://github.com/flashport/json-marshaller/issues",
-                "source": "https://github.com/flashport/json-marshaller/tree/v0.0.9"
+                "source": "https://github.com/flashport/json-marshaller/tree/v0.0.10"
             },
-            "time": "2023-09-28T20:23:08+00:00"
+            "time": "2024-09-11T14:47:21+00:00"
         },
         {
             "name": "fruitcake/php-cors",
@@ -2632,16 +2632,16 @@
         },
         {
             "name": "psr/log",
-            "version": "3.0.1",
+            "version": "3.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
-                "reference": "79dff0b268932c640297f5208d6298f71855c03e"
+                "reference": "f16e1d5863e37f8d8c2a01719f5b34baa2b714d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/79dff0b268932c640297f5208d6298f71855c03e",
-                "reference": "79dff0b268932c640297f5208d6298f71855c03e",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/f16e1d5863e37f8d8c2a01719f5b34baa2b714d3",
+                "reference": "f16e1d5863e37f8d8c2a01719f5b34baa2b714d3",
                 "shasum": ""
             },
             "require": {
@@ -2676,9 +2676,9 @@
                 "psr-3"
             ],
             "support": {
-                "source": "https://github.com/php-fig/log/tree/3.0.1"
+                "source": "https://github.com/php-fig/log/tree/3.0.2"
             },
-            "time": "2024-08-21T13:31:24+00:00"
+            "time": "2024-09-11T13:17:53+00:00"
         },
         {
             "name": "psr/simple-cache",
