@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d251793d95664e7666f22e291dfe138c",
+    "content-hash": "a5869c2f69a013f77a051b492f7cd002",
     "packages": [
         {
             "name": "brick/math",
@@ -508,16 +508,16 @@
         },
         {
             "name": "flashport/json-marshaller",
-            "version": "v0.0.11",
+            "version": "v0.0.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flashport/json-marshaller.git",
-                "reference": "751ccd1c591a8117510154783aac6020de100228"
+                "reference": "93e2b3cc3ec7eb072177990137847cab27b993bc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flashport/json-marshaller/zipball/751ccd1c591a8117510154783aac6020de100228",
-                "reference": "751ccd1c591a8117510154783aac6020de100228",
+                "url": "https://api.github.com/repos/flashport/json-marshaller/zipball/93e2b3cc3ec7eb072177990137847cab27b993bc",
+                "reference": "93e2b3cc3ec7eb072177990137847cab27b993bc",
                 "shasum": ""
             },
             "require": {
@@ -552,9 +552,9 @@
             ],
             "support": {
                 "issues": "https://github.com/flashport/json-marshaller/issues",
-                "source": "https://github.com/flashport/json-marshaller/tree/v0.0.11"
+                "source": "https://github.com/flashport/json-marshaller/tree/v0.0.12"
             },
-            "time": "2024-09-11T14:59:27+00:00"
+            "time": "2024-09-12T09:18:10+00:00"
         },
         {
             "name": "fruitcake/php-cors",
@@ -1102,16 +1102,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v11.22.0",
+            "version": "v11.23.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "868c75beacc47d0f361b919bbc155c0b619bf3d5"
+                "reference": "d38bf0fd3a8936e1cb9ca8eb8d7304a564f790f3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/868c75beacc47d0f361b919bbc155c0b619bf3d5",
-                "reference": "868c75beacc47d0f361b919bbc155c0b619bf3d5",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/d38bf0fd3a8936e1cb9ca8eb8d7304a564f790f3",
+                "reference": "d38bf0fd3a8936e1cb9ca8eb8d7304a564f790f3",
                 "shasum": ""
             },
             "require": {
@@ -1173,6 +1173,7 @@
                 "illuminate/bus": "self.version",
                 "illuminate/cache": "self.version",
                 "illuminate/collections": "self.version",
+                "illuminate/concurrency": "self.version",
                 "illuminate/conditionable": "self.version",
                 "illuminate/config": "self.version",
                 "illuminate/console": "self.version",
@@ -1215,7 +1216,7 @@
                 "league/flysystem-sftp-v3": "^3.0",
                 "mockery/mockery": "^1.6",
                 "nyholm/psr7": "^1.2",
-                "orchestra/testbench-core": "^9.1.5",
+                "orchestra/testbench-core": "^9.4.0",
                 "pda/pheanstalk": "^5.0",
                 "phpstan/phpstan": "^1.11.5",
                 "phpunit/phpunit": "^10.5|^11.0",
@@ -1273,6 +1274,7 @@
                     "src/Illuminate/Events/functions.php",
                     "src/Illuminate/Filesystem/functions.php",
                     "src/Illuminate/Foundation/helpers.php",
+                    "src/Illuminate/Log/functions.php",
                     "src/Illuminate/Support/helpers.php"
                 ],
                 "psr-4": {
@@ -1304,7 +1306,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2024-09-03T15:27:15+00:00"
+            "time": "2024-09-11T21:59:23+00:00"
         },
         {
             "name": "laravel/prompts",
@@ -7474,16 +7476,16 @@
         },
         {
             "name": "sebastian/comparator",
-            "version": "6.0.2",
+            "version": "6.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/comparator.git",
-                "reference": "450d8f237bd611c45b5acf0733ce43e6bb280f81"
+                "reference": "fa37b9e2ca618cb051d71b60120952ee8ca8b03d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/comparator/zipball/450d8f237bd611c45b5acf0733ce43e6bb280f81",
-                "reference": "450d8f237bd611c45b5acf0733ce43e6bb280f81",
+                "url": "https://api.github.com/repos/sebastianbergmann/comparator/zipball/fa37b9e2ca618cb051d71b60120952ee8ca8b03d",
+                "reference": "fa37b9e2ca618cb051d71b60120952ee8ca8b03d",
                 "shasum": ""
             },
             "require": {
@@ -7494,12 +7496,12 @@
                 "sebastian/exporter": "^6.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "^11.0"
+                "phpunit/phpunit": "^11.3"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "6.0-dev"
+                    "dev-main": "6.1-dev"
                 }
             },
             "autoload": {
@@ -7539,7 +7541,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/comparator/issues",
                 "security": "https://github.com/sebastianbergmann/comparator/security/policy",
-                "source": "https://github.com/sebastianbergmann/comparator/tree/6.0.2"
+                "source": "https://github.com/sebastianbergmann/comparator/tree/6.1.0"
             },
             "funding": [
                 {
@@ -7547,7 +7549,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-08-12T06:07:25+00:00"
+            "time": "2024-09-11T15:42:56+00:00"
         },
         {
             "name": "sebastian/complexity",
